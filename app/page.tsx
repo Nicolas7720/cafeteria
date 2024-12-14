@@ -1,7 +1,7 @@
+import Principal from "@/components/Main/Principal";
+
 export default function Home() {
   return (
-    <div>
-      Start
-    </div>
+    <Principal></Principal>
   );
 }

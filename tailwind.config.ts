@@ -16,6 +16,10 @@ const config: Config = {
         main_color: "#d3ad7f",
         border: "rgba(255,255,255,0.3)",
       },
+      backgroundImage: {
+        'bg-um': "url('pu')",
+        'bg-dois': "url('/img/footer-texture.png')",
+      }
     },
   },
   plugins: [],
