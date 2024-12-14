@@ -17,8 +17,7 @@ const config: Config = {
         border: "rgba(255,255,255,0.3)",
       },
       backgroundImage: {
-        'bg-um': "url('pu')",
-        'bg-dois': "url('/img/footer-texture.png')",
+        'imagem-de-fundo-um': "url('../public/home-img.jpeg')",
       }
     },
   },

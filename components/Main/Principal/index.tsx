@@ -2,7 +2,7 @@ import Botao from "@/components/Button";
 
 export default function Principal(){
     return(
-        <div className="bg-">
+        <div className="bg-imagem-de-fundo-um bg-center">
             <section id="home">
                 <div>
                     <h3>CODE COM O MELHOR CAFÉ DA REGIÃO</h3>
