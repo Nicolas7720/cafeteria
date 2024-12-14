@@ -13,8 +13,8 @@ const Itens: NavItemInterface[] = [
 
 export default function Navbar(){
     return(
-        <header>
-            <section className="flex justify-around items-center mt-6 pb-2">
+        <header className="fixed top-0 right-0 left-0 border-border border-b-2">
+            <section className="flex justify-around items-center mt-6 py-6">
                 <Link href="/">
                     <Image className="-mt-2" src="/logo.png" alt="logo café" width={50} height={50}/>
                 </Link>
@@ -30,11 +30,13 @@ export default function Navbar(){
                         }
                     </ul>
                 </nav>
-                <div className="flex gap-2">
-                    <Search/>
-                    <ShoppingCart/>
+                <div className="flex gap-4">
+                    <Search className="cursor-pointer hover:scale-125"/>
+                    <ShoppingCart className="cursor-pointer hover:scale-125"/>
                 </div>
             </section>
         </header>
     )
 }
+
+//fixed top-0 right-0 left-0

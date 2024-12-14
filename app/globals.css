@@ -17,7 +17,9 @@
     --foreground: #ededed;
   }
 }
-
+*{
+  transition: 0.2s linear;
+}
 body {
   color: var(--foreground);
   background: var(--background);
@@ -27,6 +29,8 @@ body {
   
 }
 section{
-  margin: 0 auto;
   max-width: 1200px;
+  display: flex;
+  padding: 3rem 2rem;
+  margin: 0 auto;
 }

@@ -7,9 +7,9 @@ export interface NavItemInterface{
 
 export default function Item(props: NavItemInterface){
     return(
-        <li className="hover: border-b-2 hover:text-main_color hover:border-main_color">
-            <Link href={props.url}>
-                <p>{props.label}</p>
+        <li>
+            <Link className="mx-0 my-4 text-white text-sm hover:text-main_color" href={props.url} >
+                <p className="hover:border-main_color hover:border-b-2">{props.label}</p>
             </Link>
         </li>
     )
