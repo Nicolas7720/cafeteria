@@ -18,6 +18,7 @@ const config: Config = {
       },
       backgroundImage: {
         'imagem-de-fundo-um': "url('../public/home-img.jpeg')",
+        'imagem-about': "url('../public/about-img.jpeg')",
       }
     },
   },

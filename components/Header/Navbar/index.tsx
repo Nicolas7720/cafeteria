@@ -4,8 +4,8 @@ import Link from "next/link"
 import Item, { NavItemInterface } from "../Item"
 
 const Itens: NavItemInterface[] = [
-    {url: "#", label: "Home"},
-    {url: "#", label: "Sobre"},
+    {url: "#home", label: "Home"},
+    {url: "#about", label: "Sobre"},
     {url: "#", label: "Menu"},
     {url: "#", label: "Avaliações"},
     {url: "#", label: "Endereço"},
