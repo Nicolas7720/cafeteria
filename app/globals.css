@@ -19,6 +19,8 @@
 }
 *{
   transition: 0.2s linear;
+  outline: none;
+  border: none;
 }
 body {
   color: var(--foreground);

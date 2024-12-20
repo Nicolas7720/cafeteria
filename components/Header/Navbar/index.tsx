@@ -13,7 +13,7 @@ const Itens: NavItemInterface[] = [
 
 export default function Navbar(){
     return(
-        <header className="fixed top-0 right-0 left-0 border-border border-b-2">
+        <header className="fixed top-0 right-0 left-0 border-border border-b-2 bg-bg">
             <section className="flex justify-around items-center mt-6 py-6">
                 <Link href="/">
                     <Image className="-mt-2" src="/logo.png" alt="logo café" width={50} height={50}/>
