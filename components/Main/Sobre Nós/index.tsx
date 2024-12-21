@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function SobreNos(){
     return(
-        <section id="about" className="flex flex-col gap-5">
+        <section id="about" className="flex flex-col gap-5 justify-center min-h-screen">
             <h2 className="text-2xl uppercase text-main_color font-semibold text-center">Sobre <span className="text-white">Nós</span></h2>
             <div className="flex gap-6 bg-black">
                 <div className="row">
